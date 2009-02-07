@@ -1,13 +1,10 @@
+require 'rubygems'
+require 'gamefake/nes'
+
+require 'extensions/array'
+require 'extensions/object'
+
 module GameFake
-	def self.included(base)
-		base.extend ClassMethods
-	end
-	
-	module ClassMethods
-		
-		def game
-		end
-		
-	end
+
 	
 end
