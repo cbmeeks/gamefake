@@ -34,6 +34,8 @@ I also plan on adding many more systems (SNES, Genesis, Turbo Grafx-16, etc).  I
 
 Feel free to contact me at:   cbmeeks [at]  gmail [dot]  kom  (com, actually)
 
+If you have any suggestions on the code and/or the game list, please let me know.
+
 Enjoy!
 
 cbmeeks
