@@ -1,0 +1,46 @@
+= GameFake
+
+Ruby/Rails gem for generating random video game names, systems, reviews, etc.
+
+This gem was inspired from the mighty Faker gem.  I am currently working on a
+video game related project and needed game data to test with.  So GameFake was born.
+
+== Install
+
+git clone git://github.com/cbmeeks/gamefake.git
+
+
+== Usage
+
+	require 'rubygems'
+	require 'gamefake'
+	
+	GameFake::NES.random_game
+
+Returns:
+	"Mega Man 6"
+	
+	
+	GameFake::NES.games
+	
+Returns:
+	["Rygar", "Gyruss", "Prince of Persia"]
+	
+	
+	GameFake::NES.games(20)
+	
+Returns:
+	["Rad Racer", "Rygar", "Kings of the Beach", "Spy vs. Spy", "Thexder", "Mega Man", "Double Dribble", "Solstice: The Quest for the Staff of Demnos", "Karnov", "Rainbow Islands", "Operation Europe: Path to Victory 1939-45", "Lethal Weapon", "Win, Lose, or Draw", "Castlevania 2", "Teenage Mutant Ninja Turtles", "Golf", "Stargate", "Lemmings", "Jordan vs. Bird: One-on-One", "Tiles of Fate"]
+	
+	
+== Credits / About
+	Greatly inspired from the Faker gem.  Well, maybe copied...lol.
+	I'm a Ruby newbie so I'm learning.  I welcome all suggestions.
+	I also plan on adding many more systems (SNES, Genesis, Turbo Grafx-16, etc).  I might even throw in some new games but I'm sort of a retro-hound.
+	
+	Feel free to contact me at:   cbmeeks [at]  gmail [dot]  kom  (com, actually)
+	
+	Enjoy!
+	
+	cbmeeks
+	
