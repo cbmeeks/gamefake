@@ -27,6 +27,7 @@ git clone git://github.com/cbmeeks/gamefake.git
 	
 	
 == Credits / About
+
 Greatly inspired from the Faker gem.  Well, maybe copied...lol.
 I'm a Ruby newbie so I'm learning.  I welcome all suggestions.
 I also plan on adding many more systems (SNES, Genesis, Turbo Grafx-16, etc).  I might even throw in some new games but I'm sort of a retro-hound.
