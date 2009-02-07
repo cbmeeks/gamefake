@@ -1,5 +1,7 @@
 require 'rubygems'
+require 'common'
 require 'gamefake/nes'
+require 'gamefake/sms'
 
 require 'extensions/array'
 require 'extensions/object'

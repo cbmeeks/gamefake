@@ -6,16 +6,17 @@ class TestGameFake < Test::Unit::TestCase
 		@game = GameFake::NES
   end
   
-	def test_random_game
-		puts "Testing Random Game"
-    assert @game.random_game.match(/(\w+\.? ?)/)
-    puts @game.random_game
-  end
-  
   def test_list_all_games
+		puts "--------------------------------------------------------------------------------------------------------"
 		puts "Testing All Games"
-		assert @game.games
-		puts @game.games
+		assert @game.games(100)
   end
+
+  def test_first_game
+		puts "--------------------------------------------------------------------------------------------------------"
+		puts "Testing First Game"
+		assert @game.first_game
+  end
+
   
 end

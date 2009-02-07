@@ -1,21 +1,21 @@
-require 'games/nes_games'
+require 'games/sms_games'
 
 module GameFake
-  class NES < Common
+  class SMS < Common
     class << self
 
       def games(num=3)
-        NES_Games.shuffle[0, num]
+        SMS_Games.shuffle[0, num]
       end
 
       def random_game
-        NES_Games.rand
+        SMS_Games.rand
       end
-
+  
       def first_game
-        NES_Games.first
+        SMS_Games.first
       end
-
+  
     end
   end
 end
