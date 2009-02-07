@@ -15,6 +15,10 @@ module GameFake
       def first_game
         SMS_Games.first
       end
+      
+      def last_game
+        SMS_Games.last
+      end
   
     end
   end

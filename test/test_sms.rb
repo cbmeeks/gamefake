@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/test_helper.rb'
 class TestGameFake < Test::Unit::TestCase
 
   def setup
-		@game = GameFake::NES
+		@game = GameFake::SMS
   end
 
   def test_first_game

@@ -16,6 +16,10 @@ module GameFake
         NES_Games.first
       end
 
+      def last_game
+        NES_Games.last
+      end
+
     end
   end
 end
