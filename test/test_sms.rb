@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/test_helper.rb'
 
-class TestGameFake < Test::Unit::TestCase
+class TestNESGameFake < Test::Unit::TestCase
 
   def setup
 		@game = GameFake::SMS
@@ -8,25 +8,25 @@ class TestGameFake < Test::Unit::TestCase
 
   def test_first_game
 		puts "--------------------------------------------------------------------------------------------------------"
-		puts "Testing First Game"
+		puts "Testing SMS First Game"
 		assert @game.first_game
   end
 
   def test_last_game
 		puts "--------------------------------------------------------------------------------------------------------"
-		puts "Testing Last Game"
+		puts "Testing SMS Last Game"
 		assert @game.last_game
   end
   
   def test_list_all_games
 		puts "--------------------------------------------------------------------------------------------------------"
-		puts "Testing All Games"
+		puts "Testing SMS All Games"
 		assert @game.games(100)
   end
 
   def test_random_game
 		puts "--------------------------------------------------------------------------------------------------------"
-		puts "Testing Random Game"
+		puts "Testing SMS Random Game"
 		assert @game.random_game
   end
   
