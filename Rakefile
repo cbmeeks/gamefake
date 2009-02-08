@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('gamefake', '0.1.2') do |p|
+Echoe.new('gamefake', '0.1.3') do |p|
 	p.description			=	"Generate cool, fake video game names"
 	p.url									=	"http://github.com/cbmeeks/gamefake"
 	p.author						=	"Cecil Meeks"

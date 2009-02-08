@@ -1,7 +1,7 @@
 require 'games/sms_games'
 
 module GameFake
-  class SMS < Common
+  class SMS
     class << self
 
       def games(num=3)

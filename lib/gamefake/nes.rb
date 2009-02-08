@@ -1,7 +1,7 @@
 require 'games/nes_games'
 
 module GameFake
-  class NES < Common
+  class NES
     class << self
 
       def games(num=3)
