@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gamefake}
-  s.version = "0.1.4"
+  s.version = "0.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Cecil Meeks"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Generate cool, fake video game names}
   s.email = %q{cbmeeks@gmail.com}
   s.extra_rdoc_files = ["README.rdoc", "CHANGELOG", "lib/games/nes_games.rb", "lib/games/sms_games.rb", "lib/games/other.rb", "lib/gamefake.rb", "lib/gamefake/sms.rb", "lib/gamefake/nes.rb", "lib/gamefake/systems.rb", "lib/gamefake/reviews.rb"]
-  s.files = ["Rakefile", "pkg/gamefake-0.1.4.gem", "pkg/gamefake-0.1.4/Rakefile", "pkg/gamefake-0.1.4/README.rdoc", "pkg/gamefake-0.1.4/gamefake.gemspec", "pkg/gamefake-0.1.4/CHANGELOG", "pkg/gamefake-0.1.4/lib/games/nes_games.rb", "pkg/gamefake-0.1.4/lib/games/sms_games.rb", "pkg/gamefake-0.1.4/lib/gamefake.rb", "pkg/gamefake-0.1.4/lib/gamefake/sms.rb", "pkg/gamefake-0.1.4/lib/gamefake/nes.rb", "pkg/gamefake-0.1.4/lib/gamefake/systems.rb", "pkg/gamefake-0.1.4/lib/gamefake/reviews.rb", "pkg/gamefake-0.1.4/lib/gamefake/other.rb", "pkg/gamefake-0.1.4/lib/extensions/object.rb", "pkg/gamefake-0.1.4/lib/extensions/array.rb", "pkg/gamefake-0.1.4/init.rb", "pkg/gamefake-0.1.4/Manifest", "pkg/gamefake-0.1.4/test/test_nes.rb", "pkg/gamefake-0.1.4/test/test_helper.rb", "pkg/gamefake-0.1.4/test/test_sms.rb", "pkg/gamefake-0.1.4/test/test_other.rb", "pkg/gamefake-0.1.4.tar.gz", "README.rdoc", "gamefake.gemspec", "CHANGELOG", "lib/games/nes_games.rb", "lib/games/sms_games.rb", "lib/games/other.rb", "lib/gamefake.rb", "lib/gamefake/sms.rb", "lib/gamefake/nes.rb", "lib/gamefake/systems.rb", "lib/gamefake/reviews.rb", "init.rb", "Manifest", "test/test_nes.rb", "test/test_helper.rb", "test/test_sms.rb", "test/test_other.rb"]
+  s.files = ["Rakefile", "README.rdoc", "CHANGELOG", "lib/games/nes_games.rb", "lib/games/sms_games.rb", "lib/games/other.rb", "lib/gamefake.rb", "lib/gamefake/sms.rb", "lib/gamefake/nes.rb", "lib/gamefake/systems.rb", "lib/gamefake/reviews.rb", "init.rb", "Manifest", "test/test_nes.rb", "test/test_helper.rb", "test/test_sms.rb", "test/test_other.rb", "gamefake.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/cbmeeks/gamefake}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Gamefake", "--main", "README.rdoc"]
