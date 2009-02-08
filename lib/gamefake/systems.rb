@@ -1,4 +1,4 @@
-require 'gamefake/other'
+require 'games/other'
 
 module GameFake
 	class Systems
@@ -9,7 +9,7 @@ module GameFake
 			end			
 			
 			def random_cpu
-				CPUs.rand
+				CPUs[rand(CPUs.length)]
 			end
 			
 			def first_cpu

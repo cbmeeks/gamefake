@@ -9,7 +9,7 @@ module GameFake
       end
 
       def random_game
-        NES_Games.rand
+        NES_Games[rand(NES_Games.length)]
       end
 
       def first_game

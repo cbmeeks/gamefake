@@ -9,7 +9,7 @@ module GameFake
       end
 
       def random_game
-        SMS_Games.rand
+        SMS_Games[rand(SMS_Games.length)]
       end
   
       def first_game
